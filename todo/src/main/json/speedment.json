@@ -1,0 +1,172 @@
+{
+  "config" : {
+    "speedmentVersion" : "Speedment:3.1.18",
+    "nameProtected" : false,
+    "expanded" : true,
+    "appId" : "95f48adb-4cea-417b-bcea-1a13a14df85d",
+    "companyName" : "uuhnaut69",
+    "name" : "tododb",
+    "packageLocation" : "src/main/java/",
+    "id" : "tododb",
+    "dbmses" : [
+      {
+        "nameProtected" : true,
+        "expanded" : true,
+        "port" : 3306,
+        "schemas" : [
+          {
+            "expanded" : true,
+            "tables" : [
+              {
+                "expanded" : true,
+                "primaryKeyColumns" : [
+                  {
+                    "nameProtected" : false,
+                    "expanded" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  }
+                ],
+                "indexes" : [
+                  {
+                    "nameProtected" : true,
+                    "expanded" : false,
+                    "unique" : true,
+                    "name" : "PRIMARY",
+                    "indexColumns" : [
+                      {
+                        "orderType" : "ASC",
+                        "expanded" : true,
+                        "name" : "id",
+                        "id" : "id",
+                        "ordinalPosition" : 1
+                      }
+                    ],
+                    "id" : "PRIMARY",
+                    "enabled" : true
+                  },
+                  {
+                    "nameProtected" : true,
+                    "expanded" : false,
+                    "unique" : true,
+                    "name" : "UK_15x1xm9y8wpdfdcy45ex68496",
+                    "indexColumns" : [
+                      {
+                        "orderType" : "ASC",
+                        "expanded" : true,
+                        "name" : "work_name",
+                        "id" : "work_name",
+                        "ordinalPosition" : 1
+                      }
+                    ],
+                    "id" : "UK_15x1xm9y8wpdfdcy45ex68496",
+                    "enabled" : true
+                  }
+                ],
+                "isView" : false,
+                "columns" : [
+                  {
+                    "nameProtected" : true,
+                    "nullable" : false,
+                    "unindexed" : false,
+                    "lowCardinality" : false,
+                    "autoIncrement" : true,
+                    "biDirectional" : false,
+                    "ordinalPosition" : 1,
+                    "enabled" : true,
+                    "databaseType" : "java.lang.Long",
+                    "expanded" : true,
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "name" : "id",
+                    "nullableImplementation" : "OPTIONAL",
+                    "id" : "id",
+                    "hashIndex" : false
+                  },
+                  {
+                    "nameProtected" : true,
+                    "nullable" : true,
+                    "unindexed" : false,
+                    "lowCardinality" : false,
+                    "autoIncrement" : false,
+                    "biDirectional" : false,
+                    "ordinalPosition" : 2,
+                    "enabled" : true,
+                    "databaseType" : "java.sql.Timestamp",
+                    "expanded" : true,
+                    "name" : "ending_date",
+                    "nullableImplementation" : "OPTIONAL",
+                    "id" : "ending_date",
+                    "hashIndex" : false
+                  },
+                  {
+                    "nameProtected" : true,
+                    "nullable" : true,
+                    "unindexed" : false,
+                    "lowCardinality" : false,
+                    "autoIncrement" : false,
+                    "biDirectional" : false,
+                    "ordinalPosition" : 3,
+                    "enabled" : true,
+                    "databaseType" : "java.sql.Timestamp",
+                    "expanded" : true,
+                    "name" : "starting_date",
+                    "nullableImplementation" : "OPTIONAL",
+                    "id" : "starting_date",
+                    "hashIndex" : false
+                  },
+                  {
+                    "nameProtected" : true,
+                    "nullable" : false,
+                    "unindexed" : false,
+                    "lowCardinality" : false,
+                    "autoIncrement" : false,
+                    "biDirectional" : false,
+                    "ordinalPosition" : 4,
+                    "enabled" : true,
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "name" : "work_name",
+                    "nullableImplementation" : "OPTIONAL",
+                    "id" : "work_name",
+                    "hashIndex" : false
+                  },
+                  {
+                    "nameProtected" : true,
+                    "nullable" : true,
+                    "unindexed" : false,
+                    "lowCardinality" : false,
+                    "autoIncrement" : false,
+                    "biDirectional" : false,
+                    "ordinalPosition" : 5,
+                    "enabled" : true,
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "name" : "work_status",
+                    "nullableImplementation" : "OPTIONAL",
+                    "id" : "work_status",
+                    "hashIndex" : false
+                  }
+                ],
+                "name" : "work",
+                "id" : "work",
+                "enabled" : true
+              }
+            ],
+            "name" : "tododb",
+            "id" : "tododb",
+            "enabled" : true
+          }
+        ],
+        "typeName" : "MySQL",
+        "ipAddress" : "127.0.0.1",
+        "name" : "tododb",
+        "id" : "tododb",
+        "enabled" : true,
+        "username" : "root"
+      }
+    ],
+    "enabled" : true
+  }
+}
